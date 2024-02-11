@@ -16,7 +16,7 @@ const ContactMe = () => {
         </h5>
       </div>
 
-      <div className="m-4 my-2 bg-my-dark-green rounded-md shadow-md">
+      <div className="m-4 my-2 bg-my-dark-green md:bg-transparent rounded-md shadow-md">
         <form
           className="flex flex-col items-center justify-center"
           action="https://getform.io/f/32c7c5d2-b9a8-4a97-b8ae-35f13a59c368"
@@ -24,7 +24,7 @@ const ContactMe = () => {
         >
           <label
             htmlFor=""
-            className="mt-2 text-xl font-medium text-my-bg-color"
+            className="mt-2 text-xl font-medium text-my-bg-color md:text-my-dark-green"
           >
             Name
           </label>
@@ -37,7 +37,7 @@ const ContactMe = () => {
           />
           <label
             htmlFor=""
-            className="mt-2 text-xl font-medium text-my-bg-color"
+            className="mt-2 text-xl font-medium text-my-bg-color md:text-my-dark-green"
           >
             Email
           </label>
@@ -50,7 +50,7 @@ const ContactMe = () => {
           />
           <label
             htmlFor=""
-            className="mt-2 text-xl font-medium text-my-bg-color"
+            className="mt-2 text-xl font-medium text-my-bg-color md:text-my-dark-green"
           >
             Message
           </label>
@@ -64,7 +64,7 @@ const ContactMe = () => {
 
           <button
             type="submit"
-            className="group w-fit px-6 py-3 my-2 flex items-center rounded-full bg-gradient-to-r from-[#fefae0] to-[#faedcd] cursor-pointer shadow-md hover:scale-105 duration-300 font-medium"
+            className="group w-fit px-6 py-3 my-2 flex items-center rounded-full bg-[#faedcd] md:bg-my-dark-green md:text-my-bg-color cursor-pointer shadow-md hover:scale-105 duration-300 font-medium"
           >
             Let's talk
             <span className="group-hover:scale-125 duration-300">
