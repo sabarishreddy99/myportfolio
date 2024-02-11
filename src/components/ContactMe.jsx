@@ -60,6 +60,7 @@ const ContactMe = () => {
             rows="10"
             className="w-4/5 md:w-1/3 p-2 border-2 rounded-lg text-my-dark-green focus:outline-none shadow-md text-center"
             placeholder="Hola! I hope you are doing well."
+            required
           ></textarea>
 
           <button
