@@ -16,13 +16,16 @@ const ContactMe = () => {
         </h5>
       </div>
 
-      <div className="m-4 my-2">
+      <div className="m-4 my-2 bg-my-dark-green rounded-md shadow-md">
         <form
-          className="flex flex-col items-center justify-center shadow-md"
+          className="flex flex-col items-center justify-center"
           action="https://getform.io/f/32c7c5d2-b9a8-4a97-b8ae-35f13a59c368"
           method="POST"
         >
-          <label htmlFor="" className="mt-2 text-xl">
+          <label
+            htmlFor=""
+            className="mt-2 text-xl font-medium text-my-bg-color"
+          >
             Name
           </label>
           <input
@@ -32,7 +35,10 @@ const ContactMe = () => {
             placeholder="Enter your name"
             required
           />
-          <label htmlFor="" className="mt-2 text-xl">
+          <label
+            htmlFor=""
+            className="mt-2 text-xl font-medium text-my-bg-color"
+          >
             Email
           </label>
           <input
@@ -42,20 +48,23 @@ const ContactMe = () => {
             placeholder="Enter your email"
             required
           />
-          <label htmlFor="" className="mt-2 text-xl">
+          <label
+            htmlFor=""
+            className="mt-2 text-xl font-medium text-my-bg-color"
+          >
             Message
           </label>
           <textarea
             name="message"
             id=""
             rows="10"
-            className="m-2 w-4/5 md:w-1/3 p-2 border-2 rounded-lg text-my-dark-green focus:outline-none shadow-md text-center"
+            className="w-4/5 md:w-1/3 p-2 border-2 rounded-lg text-my-dark-green focus:outline-none shadow-md text-center"
             placeholder="Hola! I hope you are doing well."
           ></textarea>
 
           <button
             type="submit"
-            className="group w-fit px-6 py-3 my-2 flex items-center rounded-full text-my-bg-color bg-my-dark-green cursor-pointer shadow-md hover:scale-105 duration-300"
+            className="group w-fit px-6 py-3 my-2 flex items-center rounded-full bg-gradient-to-r from-[#fefae0] to-[#faedcd] cursor-pointer shadow-md hover:scale-105 duration-300 font-medium"
           >
             Let's talk
             <span className="group-hover:scale-125 duration-300">
