@@ -39,9 +39,11 @@ const Navbar = () => {
     <div className="flex justify-around">
       <div class="flex justify-between items-center rounded-full w-11/12 shadow-md duration-200 h-20 text-black bg-my-dark-green fixed mt-8 mx-9 top-0 drop-shadow-md">
         <div>
-          <h1 className="text-3xl font-sign ml-8 text-text-green hover:-rotate-12 hover:scale-105 duration-500 cursor-pointer">
-            Hi there!
-          </h1>
+          <Link to={"home"} smooth duration={500} offset={-130}>
+            <h1 className="text-3xl font-sign ml-8 text-text-green hover:-rotate-12 hover:scale-105 duration-500 cursor-pointer">
+              Hi there!
+            </h1>
+          </Link>
         </div>
         <div>
           <ul className="hidden md:flex mr-4">
