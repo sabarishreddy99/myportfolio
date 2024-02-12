@@ -4,6 +4,7 @@ import SocialLinks from "./SocialLinks.jsx";
 import { Link } from "react-scroll";
 
 import { MdKeyboardArrowRight } from "react-icons/md";
+import { IoDocumentTextOutline } from "react-icons/io5";
 
 const Home = () => {
   const bulletpoints = [
@@ -44,20 +45,34 @@ const Home = () => {
 
           <SocialLinks />
 
-          <div>
-            <Link
-              to="About"
-              smooth
-              duration={500}
-              offset={-130}
-              className="group w-fit px-6 py-3 my-2 flex items-center rounded-full bg-gradient-to-r from-[#fefae0] to-[#faedcd] cursor-pointer shadow-md"
-              onclick="window.location.href='#'"
-            >
-              Portfolio
-              <span className="group-hover:rotate-90 duration-300">
-                <MdKeyboardArrowRight size={25} className="ml-1" />
-              </span>
-            </Link>
+          <div className="flex flex-col md:flex-row">
+            <div className="md:order-2">
+              <a
+                className="group w-fit px-6 py-3 my-2 flex items-center rounded-full border-solid border  cursor-pointer md:hover:scale-105 shadow-md duration-300 text-[#faedcd]"
+                href="/Jaya_Sabarish_Reddy_R_Resume.pdf"
+                download={true}
+              >
+                Resume
+                <span className="group-hover:font-bold duration-300">
+                  <IoDocumentTextOutline size={25} className="ml-1" />
+                </span>
+              </a>
+            </div>
+            <div className="md:mr-2 md:order-1">
+              <Link
+                to="About"
+                smooth
+                duration={500}
+                offset={-130}
+                className="group w-fit px-6 py-3 my-2 flex items-center rounded-full bg-gradient-to-r from-[#fefae0] to-[#faedcd] md:hover:scale-105 cursor-pointer shadow-md duration-300"
+                onclick="window.location.href='#'"
+              >
+                Portfolio
+                <span className="group-hover:rotate-90 duration-300">
+                  <MdKeyboardArrowRight size={25} className="ml-1" />
+                </span>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
