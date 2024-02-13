@@ -65,7 +65,7 @@ const ContactMe = () => {
 
           <button
             type="submit"
-            className="group w-fit px-6 py-3 mt-2 mb-6 flex items-center rounded-full bg-[#faedcd] md:bg-[#001d3d] border-solid border border-[#495057] md:text-my-bg-color cursor-pointer shadow-md hover:scale-105 duration-300 font-medium"
+            className="group w-fit px-6 py-3 mt-4 mb-6 flex items-center rounded-full bg-[#faedcd] md:bg-[#001d3d] border-solid border border-[#495057] md:text-my-bg-color cursor-pointer shadow-md hover:scale-105 duration-300 font-medium"
           >
             Let's talk
             <span className="group-hover:scale-125 duration-300">
