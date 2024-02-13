@@ -5,18 +5,18 @@ const ContactMe = () => {
   return (
     <div
       name="Contact"
-      className="mt-4 mb-4 py-4 mx-2  md:max-w-screen-xl md:mx-auto rounded-lg md:w-full border-solid border-2 border-my-dark-green shadow-lg"
+      className="mt-4 mb-4 py-4 mx-2  md:max-w-screen-xl md:mx-auto rounded-lg md:w-full bg-gradient-to-b from-[#495057] to-[#212529] shadow-lg"
     >
       <div>
-        <h4 className="text-3xl sm:text-5xl font-bold text-[#000000] hover:text-slate-500 duration-200 m-4 md:ml-14 my-2">
+        <h4 className="text-3xl sm:text-5xl font-bold text-[#fdf0d5] hover:text-my-bg-color duration-200 m-4 md:ml-14 my-2">
           Contact Me
         </h4>
-        <h5 className="m-4 md:ml-14 my-2">
+        <h5 className="m-4 md:ml-14 my-2 text-my-bg-color">
           Submit the form below to get in touch with me!
         </h5>
       </div>
 
-      <div className="m-4 my-2 bg-my-dark-green md:bg-transparent rounded-md shadow-md">
+      <div className="m-4 my-2 bg-[#001d3d] md:bg-transparent rounded-md shadow-md">
         <form
           className="flex flex-col items-center justify-center"
           action="https://getform.io/f/32c7c5d2-b9a8-4a97-b8ae-35f13a59c368"
@@ -24,7 +24,7 @@ const ContactMe = () => {
         >
           <label
             htmlFor=""
-            className="mt-2 text-xl font-medium text-my-bg-color md:text-my-dark-green"
+            className="mt-2 text-xl font-medium text-my-bg-color"
           >
             Name
           </label>
@@ -37,7 +37,7 @@ const ContactMe = () => {
           />
           <label
             htmlFor=""
-            className="mt-2 text-xl font-medium text-my-bg-color md:text-my-dark-green"
+            className="mt-2 text-xl font-medium text-my-bg-color"
           >
             Email
           </label>
@@ -50,7 +50,7 @@ const ContactMe = () => {
           />
           <label
             htmlFor=""
-            className="mt-2 text-xl font-medium text-my-bg-color md:text-my-dark-green"
+            className="mt-2 text-xl font-medium text-my-bg-color"
           >
             Message
           </label>
@@ -65,7 +65,7 @@ const ContactMe = () => {
 
           <button
             type="submit"
-            className="group w-fit px-6 py-3 my-2 flex items-center rounded-full bg-[#faedcd] md:bg-my-dark-green md:text-my-bg-color cursor-pointer shadow-md hover:scale-105 duration-300 font-medium"
+            className="group w-fit px-6 py-3 my-2 flex items-center rounded-full bg-[#faedcd] md:bg-[#001d3d] border-solid border border-[#495057] md:text-my-bg-color cursor-pointer shadow-md hover:scale-105 duration-300 font-medium"
           >
             Let's talk
             <span className="group-hover:scale-125 duration-300">

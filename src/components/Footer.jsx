@@ -1,6 +1,7 @@
 import React from "react";
 import SocialLinks from "./SocialLinks.jsx";
 import { MdKeyboardDoubleArrowUp } from "react-icons/md";
+import { LuTrees } from "react-icons/lu";
 import { Link } from "react-scroll";
 
 const Footer = () => {
@@ -14,6 +15,10 @@ const Footer = () => {
         </button>
       </Link>
       <SocialLinks />
+      <h2 className="flex flex-row items-center text-sm text-my-bg-color group-hover:md:text-gray-500 duration-200">
+        <LuTrees size={20} /> <i className="mx-1 mt-1">Each one, plant one</i>{" "}
+        <LuTrees size={20} />
+      </h2>
       <h3 className="text-1xl sm:text-1xl font-semibold m-1 text-my-bg-color group-hover:md:text-gray-500 duration-200">
         Jaya Sabarish Reddy R &copy; 2024
       </h3>

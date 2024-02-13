@@ -43,7 +43,7 @@ const Projects = () => {
   return (
     <div
       name="Projects"
-      className="mt-4 py-4 mx-2  md:max-w-screen-xl md:mx-auto rounded-lg md:w-full border-[#fdf0d5] bg-gradient-to-b from-[#aba79d] to-[#344e41]"
+      className="mt-4 py-4 mx-2  md:max-w-screen-xl md:mx-auto rounded-lg md:w-full border-[#fdf0d5] bg-gradient-to-b from-[#495057] to-[#212529]"
     >
       <h4 className="text-3xl sm:text-5xl font-bold text-[#fdf0d5] hover:text-my-bg-color duration-200 m-4 md:ml-14 my-2">
         Projects
@@ -53,7 +53,7 @@ const Projects = () => {
         {projects.map((project) => (
           <div
             key={project.index}
-            className="group shadow-md shadow-gray-600 rounded-lg md:mx-4 md:mt-4 bg-gradient-to-b from-[#aba79d] to-[#344e41] px-3 py-2 cursor-pointer"
+            className="group shadow-md shadow-gray-600 rounded-lg md:mx-4 md:mt-4 bg-gradient-to-b from-[#495057] to-[#212529] px-3 py-2 cursor-pointer"
           >
             <img
               className="rounded-md group-hover:md:scale-105 duration-200"

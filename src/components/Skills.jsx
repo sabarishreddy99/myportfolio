@@ -102,7 +102,7 @@ const Skills = () => {
   return (
     <div
       name="Skills"
-      className="mt-4 py-4 mx-2  md:max-w-screen-xl md:mx-auto rounded-lg md:w-full border-[#fdf0d5] bg-gradient-to-b from-[#aba79d] to-[#344e41]"
+      className="mt-4 py-4 mx-2  md:max-w-screen-xl md:mx-auto rounded-lg md:w-full border-[#fdf0d5] bg-gradient-to-b from-[#495057] to-[#212529]"
     >
       <h4 className="text-3xl sm:text-5xl font-bold text-[#fdf0d5] hover:text-my-bg-color duration-200 m-4 md:ml-14 my-2">
         Skills
@@ -112,7 +112,7 @@ const Skills = () => {
         {skills.map((skill) => (
           <div
             key={skill.id}
-            className="p-2 rounded-lg flex justify-center items-center bg-[#aba79d] hover:md:bg-slate-50 duration-500 cursor-pointer"
+            className="p-2 rounded-lg flex justify-center items-center bg-[#6c757d] hover:md:bg-slate-50 duration-500 cursor-pointer"
           >
             <h6 className="mr-2">{skill.icon}</h6>
             <h6>{skill.title}</h6>

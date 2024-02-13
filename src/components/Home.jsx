@@ -5,9 +5,19 @@ import { Link } from "react-scroll";
 
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { IoDocumentTextOutline } from "react-icons/io5";
+import { ImLocation2 } from "react-icons/im";
 
 const Home = () => {
   const bulletpoints = [
+    {
+      p: (
+        <>
+          <div className="flex flex-row items-center mb-2">
+            <ImLocation2 size={20} /> Brooklyn, New York, US
+          </div>
+        </>
+      ),
+    },
     { p: <strong>#OpenToWork</strong> },
     { p: "Actively Seeking SDE/ Full Stack Summer’24 Intern Roles" },
     { p: "MS CS @ New York University" },
@@ -17,7 +27,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="mt-32 py-8 mx-2 md:max-w-screen-xl md:mx-auto rounded-lg md:w-full bg-gradient-to-b from-[#aba79d] to-[#344e41]"
+      className="mt-32 py-8 mx-2 md:max-w-screen-xl md:mx-auto rounded-lg md:w-full bg-gradient-to-b from-[#495057] to-[#14213d]"
     >
       <div className="flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="md:order-2">
