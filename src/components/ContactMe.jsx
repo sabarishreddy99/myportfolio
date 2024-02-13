@@ -5,7 +5,7 @@ const ContactMe = () => {
   return (
     <div
       name="Contact"
-      className="mt-4 mb-4 py-4 mx-2  md:max-w-screen-xl md:mx-auto rounded-lg md:w-full bg-gradient-to-b from-[#495057] to-[#212529] shadow-lg"
+      className="mt-4 mb-2 py-2 mx-2 md:max-w-screen-xl md:mx-auto rounded-lg md:w-full bg-gradient-to-b from-[#495057] to-[#212529] shadow-lg"
     >
       <div>
         <h4 className="text-3xl sm:text-5xl font-bold text-[#fdf0d5] hover:text-my-bg-color duration-200 m-4 md:ml-14 my-2">
@@ -65,7 +65,7 @@ const ContactMe = () => {
 
           <button
             type="submit"
-            className="group w-fit px-6 py-3 my-2 flex items-center rounded-full bg-[#faedcd] md:bg-[#001d3d] border-solid border border-[#495057] md:text-my-bg-color cursor-pointer shadow-md hover:scale-105 duration-300 font-medium"
+            className="group w-fit px-6 py-3 mt-2 mb-6 flex items-center rounded-full bg-[#faedcd] md:bg-[#001d3d] border-solid border border-[#495057] md:text-my-bg-color cursor-pointer shadow-md hover:scale-105 duration-300 font-medium"
           >
             Let's talk
             <span className="group-hover:scale-125 duration-300">
