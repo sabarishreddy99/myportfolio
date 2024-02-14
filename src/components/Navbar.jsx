@@ -37,7 +37,7 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-around">
-      <div class="flex justify-between items-center rounded-full w-11/12 shadow-md duration-200 h-20 text-black bg-my-dark-green fixed mt-8 mx-9 top-0 drop-shadow-md">
+      <div class="flex justify-between items-center rounded-full w-11/12 duration-200 h-20 text-black bg-[#14213d] fixed mt-8 mx-9 top-0">
         <div>
           <Link to={"home"} smooth duration={500} offset={-130}>
             <h1 className="text-3xl font-sign ml-8 text-text-green hover:-rotate-12 hover:scale-105 duration-500 cursor-pointer">
@@ -68,7 +68,7 @@ const Navbar = () => {
         </div>
 
         {nav && (
-          <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-[#aba79d] to-[#344e41] text-neutral-300 rounded-md">
+          <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-[#14213d] to-[#000000] text-neutral-300 rounded-md">
             {links.map((link) => (
               <li
                 key={link.id}
