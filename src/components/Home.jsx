@@ -41,7 +41,9 @@ const Home = () => {
         <div className="justify-center h-full md:w-2/3 mt-4 ml-8 md:ml-14 md:order-1 md:mt-0">
           <h2 className="text-4xl sm:text-7xl font-bold text-[#fdf0d5]">
             I'm Jay
-            <span className="text-2xl sm:text-5xl text-my-bg-color">a</span>
+            <span className="text-4xl sm:text-7xl font-normal text-my-bg-color">
+              a
+            </span>
           </h2>
           <h3 className="text-1xl sm:text-4xl font-bold mt-2 text-my-bg-color">
             Sabarish Reddy Remala
