@@ -2,6 +2,7 @@ import React from "react";
 
 const AboutMe = () => {
   const content = [
+    { p: <>Greetings!</> },
     {
       p: (
         <>
@@ -20,10 +21,10 @@ const AboutMe = () => {
     {
       p: (
         <>
-          In my most recent role as a Student Software Engineer at NYU IT High
-          Speed Research Network, I contributed to the development of core
+          In my current role as a Student Software Engineer at NYU IT High-Speed
+          Research Network, I am contributing to the development of core
           interface dashboards for the expanding Corelink project. Leveraging
-          Next.js, React, Tailwind, and Gitlab, I ensured efficient and
+          Next.js, React, Tailwind, and Gitlab, I ensure efficient and
           user-friendly solutions for data visualization and analysis.
           Previously, at Wipro Limited, I led the development of a
           groundbreaking maritime application for Shell Oil Company, resulting
@@ -80,11 +81,9 @@ const AboutMe = () => {
 
       <div className="flex flex-col items-center justify-center h-full px-4 md:px-8 md:ml-8 text-my-bg-color">
         <div>
-          <p className="mb-1">Greetings!</p>
           {content.map((textContent) => (
             <>
-              <p>{textContent.p}</p>
-              <br />
+              <p className="mb-2">{textContent.p}</p>
             </>
           ))}
         </div>
